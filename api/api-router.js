@@ -10,4 +10,12 @@ router.get('/', (req, res) => {
   res.json({ api: "It's alive" });
 });
 
+router.post('/hash', (req,res) => {
+  //read a password
+  //hash a password
+  //return a password all hashed up
+
+  
+})
+
 module.exports = router;
